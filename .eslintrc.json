@@ -11,8 +11,8 @@
     },
     "rules": {
         // to warn/error/off for console log
-        "no-console": "error",
-        "indent": "error"
+        "no-console": "error"
+        // "indent": "error"
         // This throws error if comments starts with lowercase ,auto fix by link available
         // 'capitalized-comments': 'error',
     }

@@ -1,0 +1,19 @@
+{
+    "env": {
+        // "browser": true,
+        "node": true,
+        "es2021": true
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        // to warn/error/off for console log
+        "no-console": "error",
+        "indent": "error"
+        // This throws error if comments starts with lowercase ,auto fix by link available
+        // 'capitalized-comments': 'error',
+    }
+}
